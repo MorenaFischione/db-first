@@ -1,0 +1,52 @@
+
+===========================
+
+nome_Tabella : Auto Usate
+
+
+===========================
+
+id (Primary Key) - intero - MEDIUMINT (AUTO_INCREMENT , UNIQUE, NOT NULL)
+
+tipo_veicolo (usato, nuovo,chilometro zero) - stringa- VARCHAR(20) - NOT NULL
+proprietari - intero - TINYINT - NOT NULL
+ultimo_tagliando - data - DATA -  NULL
+incidentata - intero (booleano) - TINYINT - NOT NULL
+costo_bollo - intero - FLOAT(6, 2)  - NULL
+
+
+marca - stringa- VARCHAR(30) - NOT NULL
+modello - stringa- VARCHAR(30) - NOT NULL
+anno_immatricolazione - data - DATA - NOT NULL
+descrizione - stringa- TEXT - NULL
+immagini_interni - stringa - VARCHAR(255) - NULL
+immagini_esterni - stringa - VARCHAR(255) - NULL
+
+colore_esterno - stringa- VARCHAR(20) - NOT NULL
+tipo_vernice - stringa- VARCHAR(20) - NOT NULL
+rivestimento - stringa- VARCHAR(30) - NOT NULL
+carrozzeria - stringa- VARCHAR(15) - NULL
+porte - intero - TINYINT - NOT NULL
+posti_sedere - intero - TINYINT - NOT NULL
+
+tipo_cambio - stringa- VARCHAR(20) - NOT NULL
+marce - intero - TINYINT - NOT NULL
+cilindrata - stringa- VARCHAR(10) - NOT NULL
+cilindri - intero - TINYINT - NOT NULL
+
+alimentazione - stringa- VARCHAR(20) - NOT NULL
+consumo_carburante - stringa- VARCHAR(100) - NULL
+classe_emissione - stringa- VARCHAR(10) - NOT NULL
+
+alzacristalli_elettrici - intero (booleano) - TINYINT - NULL
+climatizzatore - intero (booleano) - TINYINT - NULL
+autoradio - intero (booleano) - TINYINT - NULL
+bluetooth - intero (booleano) - TINYINT - NULL
+cerchi_in_lega - intero (booleano) - TINYINT - NULL
+ruota_scorta - intero (booleano) - TINYINT - NULL
+abs - intero (booleano) - TINYINT - NULL
+airbag_conducente - intero (booleano) - TINYINT - NULL
+airbag_passeggero - intero (booleano) - TINYINT - NULL
+antifurto - intero (booleano) - TINYINT - NULL
+chiusura_centralizzata - intero (booleano) - TINYINT - NULL
+
